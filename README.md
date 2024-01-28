@@ -50,20 +50,20 @@ Modeling is done in 3 iterations:
 - A baseline DummyClassifier is defined
 - Then Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree Classifier (DTC) and Support Vector Classifier (SVC) are used without hyper-parameter tuning.
 - KNN performed better than other models on test data, with the least training time
-<img>
+<img src="images/iter_1.png" alt="fig1">
 
 ## Iteration 2:
 - Sequential feature selection is used using Ridge Regression to select the most relevant columns
 - All models are re-evaluated based on the selected features
 - KNN performed slightly better than DTC
 - It is also observed that Sequential feature selection did not significantly improve the score
-<img>
+<img src="images/iter_2.png" alt="fig1">
 
 ## Iteration 3:
 - All 7 features are included
 - Grid search is run with various parameters on all 4 models
 - DTC performed better than other models
-<img>
+<img src="images/iter_3.png" alt="fig1">
 
 
 # Evaluation
