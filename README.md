@@ -19,7 +19,7 @@ Output variable (desired target):
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
 
 It is observed that data is highly inbalanced.
-<img>
+<img src="images/data_balance.png" alt="fig1">
 
 Data does not have any missing values.
 
