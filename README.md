@@ -1,5 +1,5 @@
 # Business Objective
-The objective of this exercise is, using machine learning, coming up with model that tell us whether a customer would accept a bank product or not. The product used in this case is a bank deposit account. <br>
+The objective of this exercise is, using machine learning, to come up with a model that tells us whether a customer would accept a bank product or not. The product used in this case is a bank deposit account. <br>
 A bank can utilize this model before deciding to reach out to a customer, by measuring the likelihood of the customer accepting the offer or not. <br>
 This way, a bank can target customers who are likely to take the deposit product in their campaign and bank resources can be much more effectively deployed.
 
@@ -15,6 +15,7 @@ Data has 21 features. For this exercise, columns used are as follows:
 - housing: has housing loan? (categorical: 'no','yes','unknown')
 - loan: has personal loan? (categorical: 'no','yes','unknown')
 <br>
+
 Output variable (desired target):
 - y: has the client subscribed a term deposit? (binary: 'yes','no')
  
@@ -85,4 +86,4 @@ Banks can utilize this model to improve their chances of success compared to ran
 # Next Steps
 Additional variables that was not used in modeling should be further explored to improve model performance.<br>
 Also, various methodologies for feature selection should be looked into, as Sequential Feature Selection did not yield optimal results.<br>
-Due to time limitations, hyperparameters of SVC was not tuned, as the process is effort intensive. However, if tuned properly, SVC has the potential to outperform other models in this use case.
+If time allows, hyperparameters of SVC can be tuned better, as the process is effort intensive. However, if tuned properly, SVC has the potential to outperform other models in this use case.
