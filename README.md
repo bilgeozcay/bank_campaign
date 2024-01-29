@@ -87,7 +87,7 @@ Model does not do particularly well on recall, as many positives are left out. H
 
 
 
-Banks can utilize this model to improve their chances of success compared to randomly calling customers.
+Banks can utilize this model to double their chances of success compared to randomly calling customers.
 
 
 # Next Steps
