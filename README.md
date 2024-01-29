@@ -78,9 +78,14 @@ Modeling is done in 3 iterations:
 It is observed that Sequential Feature Selection did not sigfinicantly improve the model performance.
 At the end of iteration 3, DTC performed better than other models. However, throughout the iteration 1 and 2, DTC and KNN preformed equally well.
 
-Model does not do particularly well on recall, as many positives are left out. However, precision is better than random. 23% of the marketing calls selected by this model is expected to tbe successful.
+Confusion matrix for DTC is illustrated below.
 
 <img src="images/confusion_dtc_grid.png" width="600" alt="fig1">
+
+## For Non Technical Audiance / End User
+Model does not do particularly well on recall, as many positives are left out. However, precision is better than random. 23% of the marketing calls selected by this model is expected to tbe successful.
+
+
 
 Banks can utilize this model to improve their chances of success compared to randomly calling customers.
 
