@@ -43,6 +43,8 @@ Data is then randomly split into training and test. 70% of the data is used for 
 
 
 # Modeling
+
+## Evaluation Metrics
 Precision of the model that is selected is important, because we would like to deploy bank resources effectively. Recall of the model is important as well, because we would like to capture most of the potential customers in our effort.
 
 For those purposes we will focus on ROC AUC score througout our model selection process.
